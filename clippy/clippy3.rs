@@ -5,7 +5,7 @@
 fn main() {
     let my_option: Option<()> = None;
     if my_option.is_none() {
-        println!("What't in my_option is: {:#?}", my_option.unwrap());
+        println!("What't in my_option is: {:#?}", my_option);
     }
 
     let my_arr = &[
